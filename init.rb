@@ -17,7 +17,7 @@
 # You should have received a copy of the GNU General Public License
 # along with redmine_login_obfuscator.  If not, see <http://www.gnu.org/licenses/>.
 
-REDMINE_LOGIN_OBFUSCATOR = '1.0.1'
+REDMINE_LOGIN_OBFUSCATOR = '1.0.2'
 
 Redmine::Plugin.register :redmine_login_obfuscator do
   name "Login obfuscator"

@@ -1,7 +1,7 @@
 
 # Redmine Login Obfuscator
 
-This **Redmine plugin** adds an additional layer of protection to your Redmine instance by returning a **random HTTP error code** on every failed login attempt. Instead of always responding with the same predictable status, the plugin chooses from the list: **401**, **403**, **407**, **410**.
+This **Redmine plugin** adds an additional layer of protection to your Redmine instance by returning a **random HTTP error code** on every failed login attempt. Instead of always responding with the same predictable status, the plugin chooses from the list: **401**, **403**.
 
 This unpredictability helps *obfuscate authentication behavior*, making brute‑force attacks and credential‑stuffing attempts significantly harder for bots to analyze.
 
@@ -9,8 +9,7 @@ This unpredictability helps *obfuscate authentication behavior*, making brute‑
 
 ## Features
 
-* Returns a **random HTTP status** on each failed login:
-  `401`, `403`, `407`, or `410`.
+* Returns a **random HTTP status** on each failed login: `401`, `403`.
 
 * Makes it harder for bots and automated scanners to detect invalid credentials.
 

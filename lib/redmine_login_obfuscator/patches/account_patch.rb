@@ -19,7 +19,7 @@ module RedmineLoginObfuscator
       module InstanceMethods
 
         def invalid_credentials
-          possible_statuses = [401, 403, 407, 410]
+          possible_statuses = [401, 403]
           response.status = possible_statuses.sample   
           super                   
         end
